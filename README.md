@@ -26,3 +26,5 @@ If the value of front=-1, that is, if the Queue is empty the program gives a mes
 
 void display()  
 Otherwise displays the elements present in queue from top to bottom
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20220816162225/Queue.png)
