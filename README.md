@@ -14,15 +14,15 @@ Global Variables
 "int rear" to store the position of rear end of the queue.  
 
 Inside the main
-"int ch" to store the choice of the user "int data" to input data entered and store it in the stack  
-Inside function void display() "int i" for running iteration on the for loop
+"int ch" to store the choice of the user "int data" to input data entered and store it in the stack.
+Inside function void display() "int i" for running iteration on the for loop.
 
 # Functions
-void enqueue(int data)
+void enqueue(int data)  
 To push the data entered into the queue If the value of rear=9[SIZE-1], that is, if the Queue is full the program gives a message "Queue Overflow!" Otherwise the data is entered into the Queue and rear is incremented by 1.  
 
-void pop()
+void pop()  
 If the value of front=-1, that is, if the Queue is empty the program gives a message "Queue Underflow!" Otherwise it removes the element from the Queue and front is incremented.  
 
-void display()
+void display()  
 Otherwise displays the elements present in queue from top to bottom
